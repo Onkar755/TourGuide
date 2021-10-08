@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="category_Famous">Famous</string>
+
+    <string name="category_Food">Food</string>
+
+    <string name="category_Dam">Dams</string>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/onkar/AndroidStudioProjects/TourGuide/app/src/main/res/drawable/list_item.xml" value="0.2712962962962963" />
+        <entry key="..\:/Users/onkar/AndroidStudioProjects/TourGuide/app/src/main/res/drawable/list_items.xml" value="0.20555555555555555" />
+        <entry key="..\:/Users/onkar/AndroidStudioProjects/TourGuide/app/src/main/res/layout/activity_dam.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/onkar/AndroidStudioProjects/TourGuide/app/src/main/res/layout/activity_food.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/onkar/AndroidStudioProjects/TourGuide/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/onkar/AndroidStudioProjects/TourGuide/app/src/main/res/layout/activity_monument.xml" value="0.264" />
+        <entry key="..\:/Users/onkar/AndroidStudioProjects/TourGuide/app/src/main/res/layout/activity_nature.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/onkar/AndroidStudioProjects/TourGuide/app/src/main/res/layout/fragment_famous.xml" value="0.266304347826087" />
+        <entry key="..\:/Users/onkar/AndroidStudioProjects/TourGuide/app/src/main/res/layout/image_list.xml" value="0.264" />
+        <entry key="..\:/Users/onkar/AndroidStudioProjects/TourGuide/app/src/main/res/layout/list_item.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
