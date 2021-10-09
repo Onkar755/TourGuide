@@ -20,16 +20,13 @@ public class FamousFragment extends Fragment {
 
         final ArrayList<Location> words = new ArrayList<>();
 
-        words.add(new Location("Trimbakeshwar ", R.drawable.trimbak));
-        words.add(new Location("Pandavleni Caves", R.drawable.pandavleni));
-        words.add(new Location("Sula Vineyards", R.drawable.sula_vine));
-        words.add(new Location("Kalaram Temple", R.drawable.kalaram));
-        words.add(new Location("Mangi Tungi", R.drawable.mangi_tungi));
-        words.add(new Location("Coin Museum", R.drawable.coin_museum));
-        words.add(new Location("Anjaneri Hills", R.drawable.anjaneri));
-        words.add(new Location("Ramkund", R.drawable.ramkund));
-        words.add(new Location("Ramshej Fort", R.drawable.ramshej));
-        words.add(new Location("Dhudsagar Falls", R.drawable.someshwar));
+        words.add(new Location(R.string.famous_pandavleni, R.drawable.pandavleni));
+        words.add(new Location(R.string.famous_sula, R.drawable.sula_vine));
+        words.add(new Location(R.string.famous_mangitungi, R.drawable.mangi_tungi));
+        words.add(new Location(R.string.famous_conimuseum, R.drawable.coin_museum));
+        words.add(new Location(R.string.famous_anjaneri, R.drawable.anjaneri));
+        words.add(new Location(R.string.famous_ramshej, R.drawable.ramshej));
+        words.add(new Location(R.string.famous_dudhsagar, R.drawable.someshwar));
 
         LocationAdapter locationAdapter = new LocationAdapter(getActivity(), words);
 

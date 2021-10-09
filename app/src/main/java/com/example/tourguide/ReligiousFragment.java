@@ -10,7 +10,7 @@ import androidx.fragment.app.Fragment;
 
 import java.util.ArrayList;
 
-public class DamFragment extends Fragment {
+public class ReligiousFragment extends Fragment {
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -19,10 +19,10 @@ public class DamFragment extends Fragment {
 
         final ArrayList<Location> words = new ArrayList<>();
 
-        words.add(new Location(R.string.dam_gangapur, R.drawable.gangapur_dam));
-        words.add(new Location(R.string.dam_kashyapi, R.drawable.kashyapi_dam));
-        words.add(new Location(R.string.dam_girna, R.drawable.girna_dam));
-        words.add(new Location(R.string.dam_karanjwan, R.drawable.karanjwan_dam));
+        words.add(new Location(R.string.religion_trimbakeshwar, R.drawable.trimbak));
+        words.add(new Location(R.string.religion_kalaram, R.drawable.kalaram));
+        words.add(new Location(R.string.religion_ramkund, R.drawable.ramkund));
+        words.add(new Location(R.string.religion_saptashrungi, R.drawable.saptashuringi));
 
         LocationAdapter locationAdapter = new LocationAdapter(getActivity(), words);
 

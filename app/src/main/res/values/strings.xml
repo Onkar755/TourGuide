@@ -1,11 +1,33 @@
 <resources>
     <string name="app_name">Tour Guide</string>
-    <!-- TODO: Remove or change this placeholder text -->
-
     <string name="category_Famous">Famous</string>
-
     <string name="category_Food">Food</string>
-
     <string name="category_Dam">Dams</string>
+    <string name="category_Religion">Religious</string>
+
+    <string name="dam_gangapur">Gangapur</string>
+    <string name="dam_kashyapi">Kashyapi</string>
+    <string name="dam_girna">Girna</string>
+    <string name="dam_karanjwan">Karanjwan</string>
+
+    <string name="religion_kalaram">Kalaram Temple</string>
+    <string name="religion_trimbakeshwar">Trimbakeshwar</string>
+    <string name="religion_ramkund">Ramkund</string>
+    <string name="religion_saptashrungi">Saptashrungi</string>
+
+    <string name="famous_pandavleni">Pandavleni Caves</string>
+    <string name="famous_sula">Sula Vineyardsr</string>
+    <string name="famous_mangitungi">Mangi Tungi</string>
+    <string name="famous_conimuseum">Coin Museum</string>
+    <string name="famous_anjaneri">Anjaneri Hills</string>
+    <string name="famous_ramshej">Ramshej Fort</string>
+    <string name="famous_dudhsagar">Dhudsagar Falls</string>
+
+    <string name="food_misal">Misal Pav</string>
+    <string name="food_dabeli">Dabeli</string>
+    <string name="food_sabudana">Sabudana Vada</string>
+    <string name="food_vada">Vada Pav</string>
+    <string name="food_pav">Pav Bhaji</string>
+
 
 </resources>

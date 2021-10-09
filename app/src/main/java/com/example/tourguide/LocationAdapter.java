@@ -17,19 +17,18 @@ public class LocationAdapter extends ArrayAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        View listItemView = convertView;
-        if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
 
         }
 
         Location currentLocation = (Location) getItem(position);
-        TextView name = listItemView.findViewById(R.id.name);
+        TextView name = convertView.findViewById(R.id.name);
 
         name.setText(currentLocation.getName());
 
-        ImageView imageView = listItemView.findViewById(R.id.image);
+        ImageView imageView = convertView.findViewById(R.id.image);
         imageView.setClipToOutline(true);
 
         if (currentLocation.hasImage()) {
@@ -37,6 +36,6 @@ public class LocationAdapter extends ArrayAdapter {
         } else {
             imageView.setVisibility(View.GONE);
         }
-        return listItemView;
+        return convertView;
     }
 }

@@ -19,11 +19,11 @@ public class FoodFragment extends Fragment {
 
         final ArrayList<Location> words = new ArrayList<>();
 
-        words.add(new Location("Misal Pav", R.drawable.misalpav));
-        words.add(new Location("Dabeli", R.drawable.dabeli));
-        words.add(new Location("Sabudana Vada", R.drawable.sabudanavada));
-        words.add(new Location("Vada Pav", R.drawable.vadapav));
-        words.add(new Location("Pav Bhaji", R.drawable.pavbhaji));
+        words.add(new Location(R.string.food_misal, R.drawable.misalpav));
+        words.add(new Location(R.string.food_dabeli, R.drawable.dabeli));
+        words.add(new Location(R.string.food_sabudana, R.drawable.sabudanavada));
+        words.add(new Location(R.string.food_vada, R.drawable.vadapav));
+        words.add(new Location(R.string.food_pav, R.drawable.pavbhaji));
 
         LocationAdapter locationAdapter = new LocationAdapter(getActivity(), words);
 

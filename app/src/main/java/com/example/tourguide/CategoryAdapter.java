@@ -21,6 +21,8 @@ public class CategoryAdapter extends FragmentPagerAdapter {
             return new FamousFragment();
         } else if (position == 1) {
             return new FoodFragment();
+        } else if (position == 2) {
+            return new ReligiousFragment();
         } else {
             return new DamFragment();
         }
@@ -28,7 +30,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 3;
+        return 4;
     }
 
     @Override
@@ -37,6 +39,8 @@ public class CategoryAdapter extends FragmentPagerAdapter {
             return mContext.getString(R.string.category_Famous);
         } else if (position == 1) {
             return mContext.getString(R.string.category_Food);
+        } else if (position == 2) {
+            return mContext.getString(R.string.category_Religion);
         } else {
             return mContext.getString(R.string.category_Dam);
         }
